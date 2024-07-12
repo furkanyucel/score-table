@@ -1,0 +1,40 @@
+.teams {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.teams .team {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px dotted rgb(14, 57, 248);
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.teams .team:last-of-type {
+  border: 1px dotted rgb(156, 9, 9);
+}
+
+.teams .team label {
+  color: #f9f9f9;
+  font-size: 1.5rem;
+}
+
+.teams .team button {
+  background-color: rgb(14, 57, 248);
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: none;
+  color: #f9f9f9;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.teamB button {
+  background-color: rgb(156, 9, 9) !important;
+}

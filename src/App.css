@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #f9f9f9;
+  font-size: 3rem;
+}
+
+h2 {
+  color: #f9f9f9;
+  font-size: 1.5rem;
+}

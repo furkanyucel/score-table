@@ -1,0 +1,19 @@
+
+
+.skor {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.skor span {
+  color: #f9f9f9;
+  font-size: 6rem;
+  padding: 2rem;
+  background-color: rgb(14, 57, 248);
+  border-radius: 8px;
+}
+
+.skor span:last-of-type {
+  background-color: rgb(156, 9, 9);
+}
